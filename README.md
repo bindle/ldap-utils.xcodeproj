@@ -61,6 +61,28 @@ Git URLs:
 Downloading Source:
 
       $ git clone git://github.com/bindle/ldap-utils.git
+      $ git clone git://github.com/bindle/ldap-utils.xcodeproj.git \
+                  ldap-utils/ldap-utils.xcodeproj
+
+Preparing Source:
+
       $ cd ldap-utils
-      $ git clone git://github.com/bindle/ldap-utils.xcodeproj.git
+      $ ./autogen.sh
+
+Compiling Source:
+
+      $ cd build
+      $ ./configure
+      $ make && make install
+
+For more information on building and installing using configure, please
+read the INSTALL file.
+
+Git Branches:
+
+   * master - Current release of packages.
+   * next   - changes staged for next release
+   * pu     - proposed updates for next release
+   * xx/yy+ - branch for testing new changes before merging to 'pu' branch
+
 
