@@ -53,6 +53,8 @@
 		A09401E415266B28003B9698 /* ldap2csv.c in Sources */ = {isa = PBXBuildFile; fileRef = A09401C215266907003B9698 /* ldap2csv.c */; };
 		A09F8E962387C66D008EAC03 /* lquery.c in Sources */ = {isa = PBXBuildFile; fileRef = A09F8E942387C66D008EAC03 /* lquery.c */; };
 		A09F8E972387C66D008EAC03 /* lquery.h in Headers */ = {isa = PBXBuildFile; fileRef = A09F8E952387C66D008EAC03 /* lquery.h */; };
+		A09F8E9E238A8EBC008EAC03 /* lformat.c in Sources */ = {isa = PBXBuildFile; fileRef = A09F8E9C238A8EBC008EAC03 /* lformat.c */; };
+		A09F8E9F238A8EBC008EAC03 /* lformat.h in Headers */ = {isa = PBXBuildFile; fileRef = A09F8E9D238A8EBC008EAC03 /* lformat.h */; };
 		A0AC6C4C237F4E2A0004CD38 /* lspec.h in Headers */ = {isa = PBXBuildFile; fileRef = A0AC6C4A237F4E2A0004CD38 /* lspec.h */; };
 		A0AC6C4D237F4E2A0004CD38 /* lspec.c in Sources */ = {isa = PBXBuildFile; fileRef = A0AC6C4B237F4E2A0004CD38 /* lspec.c */; };
 		A0AC6CAC23834D930004CD38 /* oidspectool.c in Sources */ = {isa = PBXBuildFile; fileRef = A0AC6CA12382968C0004CD38 /* oidspectool.c */; };
@@ -325,6 +327,8 @@
 		A09401E015266AFB003B9698 /* liblber.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblber.dylib; path = usr/local/lib/liblber.dylib; sourceTree = SDKROOT; };
 		A09F8E942387C66D008EAC03 /* lquery.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lquery.c; sourceTree = "<group>"; };
 		A09F8E952387C66D008EAC03 /* lquery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lquery.h; sourceTree = "<group>"; };
+		A09F8E9C238A8EBC008EAC03 /* lformat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lformat.c; sourceTree = "<group>"; };
+		A09F8E9D238A8EBC008EAC03 /* lformat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lformat.h; sourceTree = "<group>"; };
 		A0AC6C4A237F4E2A0004CD38 /* lspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lspec.h; sourceTree = "<group>"; };
 		A0AC6C4B237F4E2A0004CD38 /* lspec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lspec.c; sourceTree = "<group>"; };
 		A0AC6C522381D0470004CD38 /* oidspectool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = oidspectool; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -624,6 +628,8 @@
 				A0B0080C23567E840008CEA0 /* libldapschema.h */,
 				A0B008442356B0D50008CEA0 /* lerror.c */,
 				A0B008462356B0D50008CEA0 /* lerror.h */,
+				A09F8E9C238A8EBC008EAC03 /* lformat.c */,
+				A09F8E9D238A8EBC008EAC03 /* lformat.h */,
 				A0E46EE7235EDED400E3F4B5 /* lldap.c */,
 				A0E46EE8235EDED500E3F4B5 /* lldap.h */,
 				A0B00859235850280008CEA0 /* llexer.c */,
@@ -713,6 +719,7 @@
 				A0E46EEA235EDED500E3F4B5 /* lldap.h in Headers */,
 				A00BBB5B2362A2EC002E66C9 /* loutput.h in Headers */,
 				A0E46EE6235E36DC00E3F4B5 /* lsort.h in Headers */,
+				A09F8E9F238A8EBC008EAC03 /* lformat.h in Headers */,
 				A0AC6C4C237F4E2A0004CD38 /* lspec.h in Headers */,
 				A0B0085A235850280008CEA0 /* llexer.h in Headers */,
 				A0B0081B23567FC80008CEA0 /* libldapschema.h in Headers */,
@@ -1040,6 +1047,7 @@
 				A0B008482356B0D50008CEA0 /* lerror.c in Sources */,
 				A0E46EE9235EDED500E3F4B5 /* lldap.c in Sources */,
 				A09F8E962387C66D008EAC03 /* lquery.c in Sources */,
+				A09F8E9E238A8EBC008EAC03 /* lformat.c in Sources */,
 				A0AC6C4D237F4E2A0004CD38 /* lspec.c in Sources */,
 				A0AC6CB6238409E70004CD38 /* lspecdata.c in Sources */,
 				A0B0085B235850280008CEA0 /* llexer.c in Sources */,
